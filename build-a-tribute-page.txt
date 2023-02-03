@@ -1,0 +1,122 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang ="en">
+<link rel="stylesheet" href="styles.css">
+<meta charset="UFT-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<main id="main"
+
+    <header>
+      <main id="main">
+      <div id="heading" class="center">
+        <h1 id="title" class="center">Dr. Maya Angelou</h1>
+  <p>American poet, memoirist, and civil rights activist</p>
+      </div>
+      <div id="img-div">
+        <img id="image" class="center"></img>
+  <img src="https://achievement.org/wp-content/uploads/2016/01/Maya-Angelou-4-5-remini-enhanced.jpg" alt="Photograph of Maya Angelou." id="image">
+ <figcaption id="img-caption">Photograph of Dr. Maya Angelou. Source <a href="https://achievement.org/achiever/maya-angelou/">Academy of Achievement</a>.</figcaption>
+      </figure>
+    </header>
+    
+    <main id="tribute-info">
+      <h3>Here's a time line of Dr. Angelou's life:</h3>
+      <ul>
+        <li><strong>1928</strong> - On April 4, 1928 Marguerite Johnson was born in St. Louis, Missouri.</li>
+        <li><strong>1943</strong> - Maya Angelou gave birth to her son, Guy Johnson.</li>
+        <li><strong>1944</strong> - She Became the first black female streetcar conductor.</li>
+        <li><strong>1952</strong> -Married a Greek sailor named Tosh Angelos and marriage dissolves due to religious differences.</li>
+        <li><strong>1957</strong> - Recorded her first album Miss Calypso.</li>
+        <li><strong>1969</strong> - Published the autobiography I Know Why The Caged Bird Sings.</li>
+        <li><strong>1972</strong> - Became the first black woman director in Hollywood by writing the screenplay and composing the score for the film Georgia, Georgia.</li>
+        <li><strong>1972</strong> - Received a Pulitzer Prize Nomination.</li>
+        <li><strong>1973</strong> - Married Frenchman Paul du Feu who she would later divorce in 1980.</li>
+      <li><strong>2011</strong> - awarded the Presidential Medal of Freedom by President Barack Obama</li>
+      <li><strong>2014</strong> - May 28th, 2014 Maya Angelou Passes away.</li>
+      </ul>
+      <figure>
+        <p><em> " I have great respect for the past. If you don't know where you've come from, you don't know where you're going. I have respect for the past, but I'm a person of the moment. I'm here, and I do my best to be completely centered at the place I'm at, then I go forward to the next place.</em></p>
+ <figcaption><em>-- Dr. Maya Angelou.</figcaption>
+      </blockquote>
+    </main>
+    <footer>
+      <h3>If you have time, you should read more about this incredible human being at <a href="https://en.wikipedia.org/wiki/Maya_Angelou" id="tribute-link" target="_blank">
+				Wikipedia.</a>.</h3>
+    </footer>
+  </div> 
+  </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+#main {
+  background-color: #EEEEEE;
+  margin: 30px 0;
+  font-family: sans-serif; 
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#title {
+  font-size: 150%;
+  padding-top: 50px;
+}
+
+#img-div {
+  background-color: white;
+  margin: 40px 20px;
+  padding: 20px 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+#tribute-info {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  #tribute-info {
+    width: 90%;
+  }
+}
+
+#tribute-info :not(h3) {
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+h3, ul {
+  margin-bottom: 40px;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+ul li strong {
+  font-weight: 600;
+}
+
+.disclaimer {
+  margin-top: 30px;
+}
+
+footer {
+  padding: 5px;
+  line-height: 1.5rem;
+}
+
+** end of undefined **
+
